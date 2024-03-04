@@ -1,0 +1,78 @@
+
+h1{
+  color:#7DF9FF;
+  font-family:'Brush Script MT';
+  font-size:5vw;
+  padding:0;
+  margin:0;
+}
+.foot_up_cont{
+  display:flex;
+}
+.profile{
+  border-radius: 50%;
+  height:10vh;
+  width:10vh;
+}
+.cont{
+  display:flex;
+  justify-content:center;
+  height:10%;
+}
+.foot{
+  background-color:rgba(21, 180, 249, 0.3);
+  backdrop-filter:blur(10vw);
+  width:90%;
+  height:15vw;
+  border-radius:3vw;
+  margin-top:1vw;
+  box-shadow:1vh 1vh 1vh rgba(21, 180, 249, 0.3);
+}
+fieldset{
+  margin:2vw;
+  height:1em;
+}
+footer{
+  display:flex;
+  justify-content:center;
+}
+.head{
+  height:inherit;
+  margin-top:2%;
+  width:90%;
+  display:flex;
+  justify-content:center;
+  background-color:rgba(255, 255, 255, 0.3);
+  box-shadow:1vh 1vh 1vh rgba(0, 0, 0, 0.3);
+  backdrop-filter:blur(10vw);
+  padding:1vw;
+  border-radius:2vw;
+}
+.ifcont{
+  display:flex;
+  justify-content:center;
+}
+.if{
+  margin-top:3%;
+  border-radius:5%;
+  padding:5%;
+  padding-top:2%;
+  display:flex;
+  width:80%;
+  justify-content:center;
+  background-color:rgba(139, 113, 139, 0.2);
+  backdrop-filter:blur(10vw);
+  box-shadow:1vh 1vh 1vh rgba(0, 0, 1, 0.8);
+}
+body{
+  background-image:url('/Users/chiranjeevprasannaavv/Desktop/CP/8K Wallpapers/mountain.jpg');
+  background-size:contain;
+  background-attachment:fixed;
+}
+
+iframe{
+  margin-top:30px;
+  border:5px;
+  border-radius:20px;
+  background-color:white;
+}

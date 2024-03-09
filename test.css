@@ -21,7 +21,7 @@ h1{
 }
 .foot{
   background-color:rgba(21, 180, 249, 0.3);
-  backdrop-filter:blur(10vw);
+  backdrop-filter:blur(10px);
   width:90%;
   height:15vw;
   border-radius:3vw;
@@ -44,7 +44,7 @@ footer{
   justify-content:center;
   background-color:rgba(255, 255, 255, 0.3);
   box-shadow:1vh 1vh 1vh rgba(0, 0, 0, 0.3);
-  backdrop-filter:blur(10vw);
+  backdrop-filter:blur(5px);
   padding:1vw;
   border-radius:2vw;
 }
@@ -60,13 +60,14 @@ footer{
   display:flex;
   width:80%;
   justify-content:center;
-  background-color:rgba(139, 113, 139, 0.2);
-  backdrop-filter:blur(10vw);
+  background-color:rgba(139, 113, 139, 0.2);  
+  backdrop-filter:blur(5px);
   box-shadow:1vh 1vh 1vh rgba(0, 0, 1, 0.8);
+  
 }
 body{
   background-image:url('/Users/chiranjeevprasannaavv/Desktop/CP/8K Wallpapers/mountain.jpg');
-  background-size:contain;
+  background-size:cover;
   background-attachment:fixed;
 }
 
